@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	background-color: lemonchiffon;
+}
+
+.header{
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+}
+
+.body{
+	background-color: white;
+	margin:50px;
+	padding: 5px;
+	align-content: center;
+	border: medium solid black;
+}
+
+.choices {
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	top: 200px;
+}
+
+.images{
+	text-align: center;
+}
+
+.image1{
+	display: inline-block;
+	padding-right: 100px;
+	height:300px;
+}
+
+.image2{
+	display: inline-block;
+	padding-left: 100px;
+	height:300px;
+}

@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	text-align: center;
+	background-color: lemonchiffon;
+	background-size: cover;
+}
+
+.header{
+	font-size: 35px;
+	display:block;
+	background-color:white;
+}
+
+.inputs{
+	font-size: 30px;
+	padding: 50px;
+}
+
+.button{
+}

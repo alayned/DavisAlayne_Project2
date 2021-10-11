@@ -1,0 +1,48 @@
+<!doctype html>
+<html><!doctype html>
+
+	<link rel="stylesheet" href="process_info.css"/>
+<head>
+<meta charset="UTF-8">
+<title>Customizing</title>
+</head>
+
+<body>
+	
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	
+	<div class="main_content">
+		<img src="images/7plX.gif" alt="loading"/>
+
+		<div class="header">
+			<h1> Customizing Your Experience </h1>
+		</div>
+	</div>
+	
+	
+	<div class="popup">
+		<div class="content_box"> 
+			<div class="content"> 
+				<h2> Finished Customizing! </h2>
+				<button> <a href="home2.html" class="button"> Continue </a> </button>
+			</div>
+		</div>
+	</div>
+
+	
+	<script>
+		const popup = document.querySelector('.popup');
+		
+		window.onload = function(){
+			setTimeout(function(){
+			popup.style.display = "block";
+		}, 7000)
+		}
+	</script>
+	
+</body>
+</html>
